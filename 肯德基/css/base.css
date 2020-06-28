@@ -1,0 +1,47 @@
+   /*公共文件*/
+body,p,h1,h2,h3,h4,h5,h6,ol,ul,dl,dt,dd,hr,br{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #666;
+}
+a{
+	text-decoration: none;
+	color: #666;
+} 
+img,input {
+	display: block;
+	border:none;
+	outline-style: none;
+	padding: 0;
+}
+/*清除浮动*/
+.clearfix::after {
+	content: "";
+	display: block;
+	clear:both;
+
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+.clearfix {
+	zoom: 1;
+}
+/*版心*/
+.warper {
+	width: 965px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.o2_mini{
+	min-width: 1281px;
+}

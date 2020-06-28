@@ -1,0 +1,400 @@
+// 导航部分
+.nav {
+    margin-bottom: 10px;
+    overflow: hidden;
+
+    .nav_left {
+        width: 110px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .nav_center {
+        width: 855px;
+        height: 81.5px;
+        margin-top: 13px;
+        background-color: bisque;
+        background: #C2112D;
+
+        ul {
+            width: 630px;
+            margin-top: 9px;
+            overflow: hidden;
+            display: inline-block;
+
+            // margin-top: 50px;
+            li {
+                float: left;
+                padding-bottom: 10px;
+
+                a {
+                    width: 118px;
+                    height: 25px;
+                    display: inline-block;
+                    text-align: center;
+
+                    img {
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+
+        .nav_right {
+            width: 217px;
+            margin-right: 5px;
+
+            img {
+                margin-top: 8px;
+                width: 100%;
+            }
+        }
+    }
+
+}
+
+// 产品展示区
+.shows {
+    display: inline-block;
+    width: 230px;
+    height: 325px;
+    margin-left: 20px;
+    overflow: hidden;
+
+    ul {
+        overflow: hidden;
+
+        li {
+            float: left;
+            margin-left: 5px;
+            z-index: 10;
+            a {
+                display: inline-block;
+
+                b {
+                    display: inline-block;
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+// 肯德基新闻展示区
+.News_display {
+    margin-top: 10px;
+    height: 45px;
+    background: #FFFCF3;
+    border: 1px solid #FFDECD;
+    border-radius: 10px;
+
+    .News_display_horn {
+        width: 30px;
+        height: 43px;
+        border-radius: 10px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    #new_txscroll {
+        height: 45px;
+        overflow: hidden;
+
+        .News_display_typesetting {
+            height: 45px;
+            overflow: hidden;
+
+            li {
+                width: 230px;
+                height: 45px;
+                font-size: 16px;
+                padding: 6px 6px;
+                box-sizing: border-box;
+
+                a {
+                    display: inline-block;
+                    width: 220px;
+                    height: 35px;
+                    font-size: 16px;
+                    border-right: 1px dashed #ccc;
+                    box-sizing: border-box;
+                }
+
+                .rigth_br {
+                    border: 0;
+                }
+            }
+
+        }
+    }
+
+}
+
+// 肯德基宅急送模块
+.website_module {
+    margin-top: 10px;
+    overflow: hidden;
+
+    .Official_website_module {
+        width: 470px;
+        height: 266px;
+        border-radius: 5px;
+        border: 1px solid #FFDECD;
+        background: #FEFEF6;
+
+        p {
+            margin: 10px;
+            color: #C07079;
+
+            b {
+                color: #C7112A;
+            }
+
+            b:nth-child(2) {
+                margin-top: -9px;
+                font-size: 24px;
+                color: #FFB724;
+            }
+        }
+
+        p:last-child {
+            color: #707070;
+        }
+
+        img {
+            margin: auto;
+        }
+    }
+
+    .Official_website_module_small {
+        ul {
+            overflow: hidden;
+
+            li {
+                width: 225px;
+                height: 266px;
+                border-radius: 5px;
+                border: 1px solid #FFDECD;
+                background: #FEFEF6;
+                float: left;
+                margin-left: 20px;
+                margin-bottom: 10px;
+
+                p {
+                    margin: 10px;
+                    color: #C07079;
+
+                    b {
+                        color: #C7112A;
+                    }
+
+                    b:nth-child(2) {
+                        margin-top: -9px;
+                        font-size: 24px;
+                        color: #FFB724;
+                    }
+                }
+
+                p:last-child {
+                    color: #707070;
+                }
+
+                img {
+                    margin: auto;
+                }
+            }
+        }
+    }
+
+    .Official_website_module_big {
+        ul {
+            li:nth-child(1) {
+                margin: 0;
+            }
+
+            li:nth-child(5) {
+                margin: 0;
+            }
+        }
+    }
+}
+
+// 肯德基收尾工作
+.floor_END {
+    width: 100%;
+    border-top: 1px solid black;
+    margin-top: 10px;
+    padding: 15px 0px 0px;
+    margin-bottom: 100px;
+    .warper_s {
+        width: 965px;
+        margin: 0 auto;
+    }
+    .floor_left {
+        width: 430px;
+        height: 40px;
+
+        ul {
+            overflow: hidden;
+
+            li {
+                width: 71px;
+                padding: 0px 5px;
+                font-size: 12px;
+                border-right: 1px solid black;
+                color: #8B484B;
+                text-align: center;
+                box-sizing: border-box;
+            }
+
+            li:last-child {
+                border: 0;
+            }
+        }
+
+        p {
+            padding-left: 5px;
+            font-size: 12px;
+            color: #C09B9D;
+
+            b {
+                margin-left: 35px;
+            }
+        }
+    }
+
+    .floor_right {
+        width: 250px;
+        height: 57px;
+        line-height: 57px;
+        position: relative;
+        span {
+            display: inline-block;
+            color: #8B484B;
+            font-size: 13px;
+            transform: translate(0, -7%);
+        }
+
+        .floor_right_select {
+            display: inline-block;
+            width: 160px;
+            height: 35px;
+            line-height: 35px;
+            font-size: 12px;
+            color: #A39F94;
+            padding: 0px 10px;
+            box-sizing: border-box;
+            background: #FFFBF2;
+            border-radius: 5px;
+            border: 1px solid #E8CEC1;
+            transform: translate(0, -15%);
+            position: relative;
+
+            img {
+                position: absolute;
+                top: 10px;
+                right: 15px;
+                width: 15px;
+                display: inline-block;
+            }
+        }
+
+        .select_none {
+            position: absolute;
+            top: -151px;
+            right: 66px;
+            width: 100px;
+        }
+    }
+}
+
+// END_ending
+.END_ending {
+    width: 100%;
+    height: 30px;
+    background: #A81629;
+    // margin-top: 50px;
+    position: relative;
+    .END_ending_center {
+        width: 600px;
+        height: 25px;
+        border-radius: 5px;
+        margin-top: 3px;
+        background: #FED61F;
+
+        ul {
+            margin-top: 2.5px;
+            padding: 2px;
+            box-sizing: border-box;
+            display: flex;
+            overflow: hidden;
+
+            li {
+                flex: 1;
+                padding: 0px 5px;
+                font-size: 14px;
+                border-right: 1px solid black;
+                color: #D25425;
+                text-align: center;
+                box-sizing: border-box;
+            }
+
+            li:last-child {
+                border: 0;
+            }
+        }
+    }
+
+    .END_ending_right {
+        margin-left: 50px;
+        width: 130px;
+        height: 30px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    // END_end
+    .END_end {
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+        width: 228px;
+        height: 110px;
+        .yuanquan {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: 1px solid black;
+            text-align: center;
+            line-height: 20px;
+            background: #ccc;
+            cursor: pointer;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+}
+
+.shouwei {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
